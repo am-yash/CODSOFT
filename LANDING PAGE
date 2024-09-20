@@ -1,0 +1,198 @@
+____HTML CODE____
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Music Website Landing Page</title>
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+	<header>
+		<h1>Discover Your New Favorite Artist</h1>
+	</header>
+	<section class="hero">
+		<img src="03.jpeg" alt="Music Image">
+		<h2>Explore the World of Music</h2>
+		<p>Find new music, discover emerging artists, and connect with fellow music lovers</p>
+		<button>Get Started</button>
+		<section class="taste-of-music">
+			<h2>Taste of Music</h2>
+			<p>Get a sneak peek into our music library</p>
+			<div class="music-grid">
+				<div class="music-item">
+					<img src="09.jpeg" alt="Song 1">
+					<h4>Song 1 - Artist 1</h4>
+					<p>Genre: JAZZ</p>
+				</div>
+				<div class="music-item">
+					<img src="08.webp" alt="Song 2">
+					<h4>Song 2 - Artist 2</h4>
+					<p>Genre: Rock</p>
+				</div>
+				<div class="music-item">
+					<img src="07.jpeg" alt="Song 3">
+					<h4>Song 3 - Artist 3</h4>
+					<p>Genre: Hip-Hop</p>
+				</div>
+				<!-- Add more music items here -->
+			</div>
+		</section>
+	</section>
+	<section class="features">
+		<div class="feature">
+			<i class="fas fa-music"></i>
+			<h3>Discover New Music</h3>
+			<p>Browse our curated playlists and discover new artists and genres</p>
+		</div>
+		<div class="feature">
+			<i class="fas fa-user"></i>
+			<h3>Connect with Artists</h3>
+			<p>Get exclusive access to artist interviews, behind-the-scenes content, and more</p>
+		</div>
+		<div class="feature">
+			<i class="fas fa-community"></i>
+			<h3>Join the Music Community</h3>
+			<p>Connect with fellow music lovers, share your favorite tracks, and get recommendations</p>
+		</div>
+	</section>
+	<section class="call-to-action">
+		<h2>Start Your Musical Journey Today!</h2>
+		<p>Sign up for our newsletter and get access to exclusive content, promotions, and more</p>
+		<button>Sign Up</button>
+	</section>
+	<footer>
+		<p>&copy; 2023 Music Website</p>
+	</footer>
+</body>
+</html>
+
+_____CSS CODE______
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #f0f0f0;
+	padding: 20px;
+	text-align: center;
+}
+
+.hero {
+	background-color: #fff;
+	padding: 40px;
+	text-align: center;
+}
+
+.hero img {
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+	border-radius: 10px;
+}
+
+.hero h2 {
+	margin-top: 20px;
+}
+
+.hero button {
+	background-color: #4CAF50;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.hero button:hover {
+	background-color: #3e8e41;
+}
+
+.taste-of-music {
+	margin-top: 40px;
+}
+
+.music-grid {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.music-item {
+	width: 25%;
+	margin: 20px;
+	padding: 20px;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.music-item img {
+	width: 100%;
+	height: 150px;
+	object-fit: cover;
+	border-radius: 10px;
+}
+
+.music-item h4 {
+	margin-top: 10px;
+}
+
+.music-item p {
+	font-size: 14px;
+	color: #666;
+}
+
+.features {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 40px;
+}
+
+.feature {
+	width: 30%;
+	margin: 20px;
+	padding: 20px;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.feature i {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+.call-to-action {
+	background-color: #f0f0f0;
+	padding: 20px;
+	text-align: center;
+	margin-top: 40px;
+}
+
+.call-to-action button {
+	background-color: #4CAF50;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.call-to-action button:hover {
+	background-color: #3e8e41;
+}
+
+footer {
+	background-color: #f0f0f0;
+	padding: 10px;
+	text-align: center;
+	clear: both;
+}
+.hero {
+	background-color: #3498db; /* blue background */
+  }
+.hero {
+  color: #ffffff; /* white text color */
+}
